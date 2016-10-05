@@ -58,6 +58,7 @@ public abstract class BouncingFigure {
 
 		// Divide speed by 10 because frame is repainted every 0.1 sec
 		int magnitude = Math.max(pixelsPerSec / 10,1);
+		System.out.println("magnitude = "+ magnitude);
 
 		// Compute horizontal and vertical components of linear translation
 		// 90 degrees trajectory -> move straight up. 
